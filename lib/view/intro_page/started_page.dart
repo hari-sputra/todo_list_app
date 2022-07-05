@@ -46,7 +46,9 @@ class StartedPage extends StatelessWidget {
             SizedBox(
               width: double.infinity,
               child: ElevatedButton(
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.pushNamed(context, "/login");
+                },
                 child: Text(
                   "Login",
                   style: primaryTextStyle.copyWith(
@@ -64,7 +66,9 @@ class StartedPage extends StatelessWidget {
             SizedBox(
               width: double.infinity,
               child: ElevatedButton(
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.pushNamed(context, "/create");
+                },
                 child: Text(
                   "Create Account",
                   style: primaryTextStyle.copyWith(

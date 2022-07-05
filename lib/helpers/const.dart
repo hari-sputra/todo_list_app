@@ -7,6 +7,8 @@ Color primaryColor = const Color(0xff8875FF);
 Color secondaryColor = const Color(0xffFFFFFF).withOpacity(.87);
 Color secondary2Color = const Color(0xffFFFFFF).withOpacity(.67);
 Color secondary3Color = const Color(0xffFFFFFF).withOpacity(.44);
+Color greyColor = const Color(0xff979797);
+Color blackColor = const Color(0xff1D1D1D);
 
 // text style
 TextStyle primaryTextStyle = GoogleFonts.lato(
