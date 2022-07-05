@@ -30,8 +30,19 @@ dependencies:
   cupertino_icons: ^1.0.2
   flutter:
     sdk: flutter
+  flutter_launcher_icons: ^0.9.3
+  flutter_native_splash: null
   google_fonts: ^3.0.1
   introduction_screen: ^3.0.2
+flutter_native_splash:
+  image: src/icons/logo.png
+  color: "#ffffff"
+  android: true
+  ios: true
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "src/icons/launcher_icon.png"
 
 dev_dependencies:
   flutter_lints: ^1.0.0

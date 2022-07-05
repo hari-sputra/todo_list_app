@@ -25,7 +25,8 @@ class OnBoardingPage extends StatelessWidget {
             ),
           ),
           onDone: () {
-            // When done button is press
+            Navigator.pushNamedAndRemoveUntil(
+                context, "/start", (route) => false);
           },
           pages: [
             PageViewModel(
@@ -46,7 +47,7 @@ class OnBoardingPage extends StatelessWidget {
               image: Center(
                 child: Image.asset(
                   "src/images/onboard1.png",
-                  height: 175.0,
+                  // height: 175.0,
                 ),
               ),
             ),
@@ -68,7 +69,7 @@ class OnBoardingPage extends StatelessWidget {
               image: Center(
                 child: Image.asset(
                   "src/images/onboard2.png",
-                  height: 175.0,
+                  // height: 175.0,
                 ),
               ),
             ),
@@ -90,7 +91,7 @@ class OnBoardingPage extends StatelessWidget {
               image: Center(
                 child: Image.asset(
                   "src/images/onboard3.png",
-                  height: 175.0,
+                  // height: 175.0,
                 ),
               ),
             ),

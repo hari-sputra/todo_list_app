@@ -2,9 +2,9 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-Color bgColor = Color(0xff121212);
-Color prymaryColor = Color(0xff8875FF);
-Color secondaryColor =  Color(0xffFFFFFF).withOpacity(.87);
+Color bgColor = const Color(0xff121212);
+Color primaryColor = const Color(0xff8875FF);
+Color secondaryColor = const Color(0xffFFFFFF).withOpacity(.87);
 Color secondary2Color = const Color(0xffFFFFFF).withOpacity(.67);
 Color secondary3Color = const Color(0xffFFFFFF).withOpacity(.44);
 
